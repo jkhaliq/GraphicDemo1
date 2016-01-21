@@ -1,0 +1,18 @@
+/**
+ * Created by jkhaliq on 1/19/2016.
+ */
+public class GradeBook {
+    public static void main(String[] args) {
+        double Studentmarks[][] = {
+                {22.0, 55, 77},
+                {33, 66, 99},
+                {66, 55, 44}
+        };
+        for (int row = 0; row < Studentmarks.length; row++) {
+            for (int column = 0; column < Studentmarks[row].length; column++){
+                System.out.print(Studentmarks[row][column]+"\t");
+            }
+            System.out.println();
+        }
+    }
+}
