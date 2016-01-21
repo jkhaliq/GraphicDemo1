@@ -1,0 +1,23 @@
+
+/**
+ * Created by jkhaliq on 1/19/2016.
+ */
+public class Main {
+    public static void main(String[] args) {
+       final int NUM_OF_MONTHS = 12;
+        double[] monthlySales = {1590.75, 7890.15, 6090};
+       /* monthlySales[0] = 1590.75;
+        monthlySales[1] = 7890.15;
+        monthlySales[2] = 6090.15;
+        for (int i = 0; i < monthlySales.length; i++) {
+            System.out.println(monthlySales[i]);
+        }
+*/
+        for (double each: monthlySales) {
+           // if (each != 0) {
+                System.out.println(each);
+            //}
+        }
+    }
+
+}
