@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Create a array of balloon
-        Balloon[] thing = new Balloon[5];
+        Balloon[] thing = new Balloon[500];
 
         // Build the first balloon objects
         thing[0] = new Balloon();
