@@ -1,0 +1,18 @@
+package P11;
+
+import javafx.geometry.Point2D;
+public class Main {
+    public static void main(String[] jeo) {
+        Point2D pt1 = new Point2D(4, 0);
+        Point2D pt2 = new Point2D(0,3);
+
+        // prints inform about the point
+        System.out.println(pt1.toString());
+        System.out.println(pt2.toString());
+
+        double hyp = pt1.distance(pt2);
+        System.out.println(" Distance = " + hyp);
+
+
+    }
+}
